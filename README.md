@@ -7,7 +7,7 @@ Technikwahl: Python (Flask), zwei getrennte Container – Backend (JSON-API) und
 - **backend/** – Flask-App, liefert nur JSON über `/api/...`, spricht direkt mit SQLite
 - **frontend/** – Flask-App, rendert HTML-Seiten, holt sich die Daten per HTTP-Request vom Backend (`requests`-Bibliothek)
 
-## Start (jedes Teammitglied, lokal)
+## Start ( lokal)
 
 ```bash
 git clone <repo-url>
