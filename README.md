@@ -90,10 +90,4 @@ docker compose exec backend python init_db.py
 
 Code-Änderungen in `.py`- und `.html`-Dateien werden dank Bind-Mount und Debug-Modus automatisch übernommen, ein neuer Build ist dafür nicht nötig.
 
-## Git-Workflow
 
-- `main` ist immer lauffähig.
-- Jede*r arbeitet in einem eigenen Branch, z. B. `feature/teams-verwaltung`.
-- Merge nach `main` nur per Pull Request, mindestens eine andere Person schaut kurz drüber.
-- Kleine, aussagekräftige Commits.
-- Die SQLite-Datei wird nicht eingecheckt (steht in der `.gitignore`), versioniert wird `backend/schema.sql`.
