@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+env/
+
+# Lokale SQLite-Datei und Instance-Ordner nicht ins Repo
+instance/
+*.db
+*.sqlite3
+
+.env
+.DS_Store

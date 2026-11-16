@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="de">
+<head>
+    <meta charset="utf-8">
+    <title>GameHub – Teams</title>
+</head>
+<body>
+    <h1>Teams</h1>
+    <table border="1" cellpadding="6">
+        <tr><th>Code</th><th>Name</th><th>Kürzel</th></tr>
+        {% for t in teams %}
+        <tr>
+            <td>{{ t.team_code }}</td>
+            <td>{{ t.name }}</td>
+            <td>{{ t.kuerzel }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+</body>
+</html>
